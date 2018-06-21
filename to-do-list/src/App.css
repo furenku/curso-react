@@ -1,0 +1,74 @@
+* {
+  outline: 1px solid #abc;
+}
+
+/* RESETS */
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+
+
+li {
+  padding: .5rem;
+}
+
+
+
+.progress-indicator {
+  /* tar */
+  text-align: right;
+}
+
+
+
+.task-done .name {
+  /* tdlt */
+  text-decoration: line-through;
+}
+
+li {
+  /* w100p */
+  width: 100%;
+  clear: both;
+  display: flex;
+}
+
+li * {
+  /* fl */
+  float: left;
+  /* df */
+  display: flex;
+  /* aic */
+  align-items: center; 
+  /* jcc */
+  justify-content: center;  
+}
+
+li .number {
+  /* w10p */
+  width: 10%;
+}
+
+li .name {
+  /* w50p */
+  width: 50%;
+}  /* float: left; */
+
+
+li button {
+  /* w20p */
+  width: 20%;
+  font-size: .75rem;
+}
