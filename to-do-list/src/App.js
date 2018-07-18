@@ -100,6 +100,8 @@ class NewTaskForm extends Component {
           type="text"
           value={this.state.value}
           onChange={ (e) => this.handleChange(e) }
+          maxLength={ 25 }
+          placeholder="Add a task here..."
           />
 
           <input
